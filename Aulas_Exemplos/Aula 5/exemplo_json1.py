@@ -10,8 +10,8 @@ data["mg"] = "Minas Gerais"
 
 #escrever formato json
 
-f = open("data/output.json","w")
-json.dump(data,f, sort_keys=True,indent=4)
+f = open("data/output.json","w", encoding='utf8')
+json.dump(data,f, sort_keys=True,indent=4, ensure_ascii=False)
 f.close()
 
 
