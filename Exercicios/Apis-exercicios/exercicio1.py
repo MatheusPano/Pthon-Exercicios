@@ -7,7 +7,7 @@ import os
 os.system("cls")
 
 navegador = {
-    "User-Agent" : "Chrome"
+    "User-Agent": "Chrome"
 }
 
 # https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/6885/anos/2017-1
